@@ -1,0 +1,159 @@
+:root {
+    --yema-yokai: #ffc90a;
+    --amarillo-yokai: #fbe91d;
+    --rojo-yokai: #e7252c;
+    --rosa-yokai: #dc84b5;
+    --rosa-claro-yokai: #fbedf5;
+    --rosa-yokai-rgba: 226, 135, 185, 0.15;
+    --celeste-yokai: #32b6e9;
+    --verde-yokai: #6abd4f;
+    --violeta-yokai: #7672a8;
+    --violeta-claro-yokai: #938fd1;
+    --violeta-yokai-rgb: 137, 133, 192;
+    --bs-primary-rgb: 220, 182, 131;
+}
+
+
+body {
+    font-family: "Albert Sans", sans-serif;
+}
+
+.albert-sans-400 {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rosa-yokai {
+    color: var(--rosa-yokai);
+}
+
+.bg-rosa-claro-yokai {
+    background-color: var(--rosa-claro-yokai);
+}
+
+.violeta-claro-yokai {
+    color: var(--violeta-claro-yokai)
+}
+
+.violeta-yokai {
+    color: var(--violeta-yokai);
+}
+
+/* nav */
+header .nav-link {
+    color: var(--violeta-yokai);
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+header .nav-link:hover {
+    color: var(--bs-light);
+}
+
+
+header .navbar-nav .nav-link.active {
+    color: var(--bs-light);
+    font-weight: 700;
+}
+
+/* jumbo */
+.jumbotron {
+    background-image: url(../assets/images/bg-city.webp);
+    background-size: cover;
+    backdrop-filter: brightness(120%);
+    background-position: center center;
+    height: 100%;
+}
+
+.blur-mask {
+    backdrop-filter: brightness(140%) blur(4px);
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+/* Personajes */
+.card-footer {
+    background-color: rgba(var(--rosa-yokai-rgba));
+}
+
+/* Medalla */
+.scroll-horizontal {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-color: var(--rosa-yokai) var(--rosa-claro-yokai);
+}
+
+/* btn arriba */
+
+.btn-up {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+}
+
+/* registro */
+
+.bg-bn {
+    background-image: url(../assets/images/background.png);
+    background-repeat: repeat;
+
+}
+
+.form-select-lg {
+
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    font-size: 1rem;
+
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--violeta-claro-yokai);
+    --bs-btn-border-color: var(--violeta-claro-yokai);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--violeta-yokai);
+    --bs-btn-hover-border-color: var(--violeta-yokai);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--violeta-yokai);
+    --bs-btn-active-border-color: var(--violeta-yokai);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--violeta-claro-yokai);
+    --bs-btn-disabled-border-color: var(--violeta-claro-yokai);
+}
+
+/* full vh */
+
+.fill-vh {
+    /* vh menos nav y footer */
+    min-height: calc(100vh - 15.2rem);
+
+}
+
+/* ajuste forms */
+
+.form-container {
+    width: 80%;
+}
+
+@media screen and (min-width: 576px) {
+    .form-container {
+        width: 450px;
+    }
+}
+
+/* medals */
+.medals {
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (min-width: 576px) {
+    .medals {
+        max-width: 100%;
+        height: auto;
+    }
+}

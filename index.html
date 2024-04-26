@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yo-Kai Watch</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/custom_bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-primary">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/images/yokai_logo.png" alt="Logo" width="157" height="105"
+            class="d-inline-block"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="pages/characters.html">Personajes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/medals.html">Medallas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/register.html">Registrarse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/login.html">Iniciar Sesión</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="jumbo" class="mb-5">
+      <div class="jumbotron brightness-mask">
+        <div class="container col-xxl-8 px-4 py-2">
+          <div class="row flex-lg-row-reverse align-items-center g-5">
+            <div class="col-10 col-sm-8 col-lg-6" data-aos="fade-left">
+              <img src="assets/images/whisper.png" class="d-block mx-lg-auto img-fluid " alt="Whisper" loading="lazy">
+            </div>
+            <div class="col-lg-6 blur-mask py-3">
+              <h1 class="display-5 fw-bold lh-1 mb-3">¡Bienvenido mi amigo corporeo!</h1>
+              <p class="fs-4 fw-bold">Los Yo-Kais están en todos lados,<br>
+                Causan problemas, ¡Arruinan tu peinado!<br>
+                Te pinchan el neumático, te hacen tropezar,<br>
+                El calcetín en la secadora, ¡No vas a encontrar!</p>
+
+              <a data-mdb-ripple-init class="btn btn-outline-dark btn-lg mt-2" href="pages/register.html" role="button" rel="nofollow"
+                target="_blank">Regístrate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="personajes" class="mb-5">
+      <div class="container col-xxl-8 px-4 py-2">
+        <h2 class="mb-3 violeta-yokai">Personajes</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+          <div class="col">
+            <div class="card h-100">
+              <a href="pages/detail.html"><img src="assets/images/jibanyan.png" class="card-img-top" alt="Jibanyan"></a>
+              <div class="card-body">
+                <h5 class="card-title">Jibanyan</h5>
+                <p class="card-text">Después de ser atropellado por un camión en una intersección, busca vengarse de los
+                  camiones que pasan.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">ジバニャン (Jibanyan)</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <a href="pages/detail.html"><img src="assets/images/sheen.png" class="card-img-top" alt="Sheen"></a>
+              <div class="card-body">
+                <h5 class="card-title">Sheen</h5>
+                <p class="card-text">Un espadachín Yo-kai que regresó al camino de la espada cuando una espada
+                  legendaria reavivó su espíritu.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">まさむね (Masamune)</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <a href="pages/detail.html"><img src="assets/images/reuknight.png" class="card-img-top" alt="Reuknight"></a>
+              <div class="card-body">
+                <h5 class="card-title">Reuknight</h5>
+                <p class="card-text">Aspira a hacer lo que no pudo hacer cuando estaba vivo: unificar el país.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">ゲンマ将軍 (Genma Shougun)</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <a href="pages/detail.html"><img src="assets/images/cadin.png" class="card-img-top" alt="Cadin"></a>
+              <div class="card-body">
+                <h5 class="card-title">Cadin</h5>
+                <p class="card-text">Afirma practicar el "ninjutsu de cigarra"... pero eso no es realmente cierto. A
+                  menos que sea un maestro en huir.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">セミまる (Semimaru)</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <a href="pages/detail.html"><img src="assets/images/illoo.png" class="card-img-top" alt="Illoo"></a>
+              <div class="card-body">
+                <h5 class="card-title">Illoo</h5>
+                <p class="card-text">Un profesor cariñoso que utiliza ilusiones para simplificar sus lecciones. Puede
+                  hacer que temas complejos parezcan bastante accesibles.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">まぼ老師 (Maboroushi)</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <a href="pages/detail.html"><img src="assets/images/komasan.png" class="card-img-top" alt="Komasan"></a>
+              <div class="card-body">
+                <h5 class="card-title">Komasan</h5>
+                <p class="card-text">Komasan es un perro león guardián que se aburrió de proteger su santuario. Ahora
+                  está buscando uno nuevo.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">コマさん (Komasan)</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section id="medallas" class="mb-5">
+
+      <div class="container col-xxl-8 px-4 py-2">
+        <h2 class="mb-3 violeta-yokai">Medallas</h2>
+
+        <div class="container-fluid pt-3">
+
+          <div class="row flex-row flex-sm-nowrap pt-3 scroll-horizontal">
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card mb-3"><img src="assets/images/medalilloo.png" class="medals" alt="Medalla Illoo">
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card mb-3"><img src="assets/images/medalake.png" class="medals" alt="Medalla Ake">
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card mb-3"><img src="assets/images/medalbeetler.png" class="medals"
+                  alt="Medalla Beetler"></div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card mb-3"><img src="assets/images/medalgleam.png" class="medals" alt="Medalla Gleam">
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card mb-3"><img src="assets/images/medalledballoon.png" class="medals"
+                  alt="Medalla Ledballoon"></div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card mb-3"><img src="assets/images/medalmynimo.png" class="medals"
+                  alt="Medalla Mynimo"></div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card mb-3"><img src="assets/images/medalsheen.png" class="medals" alt="Medalla Sheen">
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card mb-3"><img src="assets/images/medalsiro.png" class="medals" alt="Medalla Siro">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container col-xxl-8 px-4 pt-2 pb-5">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Términos y condiciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Preguntas frecuentes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ayuda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Administrador</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="btn-up">
+      <a href="#">
+        <i class="bi bi-arrow-up-square-fill fs-3 violeta-claro-yokai"></i>
+      </a>
+    </div>
+
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+  <script>
+    AOS.init(
+      {
+        duration: 1200,
+      }
+    )
+
+  </script>
+
+</body>
+
+</html>
