@@ -170,9 +170,13 @@ header .navbar-nav .nav-link.active {
     position: relative;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .marquee-image {
+.marquee-image {
     width: 70%;
     margin: auto;
+}
+
+.navbar-collapse {
+    z-index: 1050;
 }
