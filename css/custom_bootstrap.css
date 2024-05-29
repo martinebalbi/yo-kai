@@ -157,3 +157,22 @@ header .navbar-nav .nav-link.active {
         height: auto;
     }
 }
+
+.error-message {
+    color: red;
+    font-style: italic;
+    font-size: smaller;
+}
+
+
+
+.marquee-image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .marquee-image {
+    width: 70%;
+    margin: auto;
+}

@@ -63,14 +63,46 @@
                 Te pinchan el neumático, te hacen tropezar,<br>
                 El calcetín en la secadora, ¡No vas a encontrar!</p>
 
-              <a data-mdb-ripple-init class="btn btn-outline-dark btn-lg mt-2" href="pages/register.html" role="button" rel="nofollow"
-                target="_blank">Regístrate</a>
+              <a data-mdb-ripple-init class="btn btn-outline-dark btn-lg mt-2" href="pages/register.html" role="button"
+                rel="nofollow" target="_blank">Regístrate</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <section id="clima" class="mb-5">
+      <div class="container col-xxl-8 px-4 py-2">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-2 align-content-center marquee-image-container p-3">
+              <img src="assets/images/wibwobgoldenyan.png" class="  m-auto " alt="Wibwobgoldenyan">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <h5 class="card-title violeta-yokai">El clima en Floridablanca</h5>
+                <marquee>
+                  <p class="text-muted m-0">
+                    Ciudad: Sakura Nyuu Taun (<span class="rosa-yokai" id="city"></span>) -
+                    Temperatura: <span class="rosa-yokai" id="temperature"></span> -
+                    Sensación Térmica: <span class="rosa-yokai" id="feels_like"></span> -
+                    Tiempo: <span class="rosa-yokai text-capitalize" id="weather"></span> <img id="weatherIcon" src="" alt=""
+                      class="m-0"> -
+                    Humedad: <span class="rosa-yokai" id="humidity"></span> -
+                    Presión Atmosférica: <span class="rosa-yokai" id="pressure"></span> -
+                    Velocidad del Viento: <span class="rosa-yokai" id="windSpeed"></span> -
+                    Visibilidad: <span class="rosa-yokai" id="visibility"></span>
+                  </p>
+                </marquee>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </section>
 
     <section id="personajes" class="mb-5">
       <div class="container col-xxl-8 px-4 py-2">
@@ -107,7 +139,8 @@
 
           <div class="col">
             <div class="card h-100">
-              <a href="pages/detail.html"><img src="assets/images/reuknight.png" class="card-img-top" alt="Reuknight"></a>
+              <a href="pages/detail.html"><img src="assets/images/reuknight.png" class="card-img-top"
+                  alt="Reuknight"></a>
               <div class="card-body">
                 <h5 class="card-title">Reuknight</h5>
                 <p class="card-text">Aspira a hacer lo que no pudo hacer cuando estaba vivo: unificar el país.</p>
@@ -183,8 +216,8 @@
               </div>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3">
-              <div class="card mb-3"><img src="assets/images/medalbeetler.png" class="medals"
-                  alt="Medalla Beetler"></div>
+              <div class="card mb-3"><img src="assets/images/medalbeetler.png" class="medals" alt="Medalla Beetler">
+              </div>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="card mb-3"><img src="assets/images/medalgleam.png" class="medals" alt="Medalla Gleam">
@@ -195,8 +228,7 @@
                   alt="Medalla Ledballoon"></div>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3">
-              <div class="card mb-3"><img src="assets/images/medalmynimo.png" class="medals"
-                  alt="Medalla Mynimo"></div>
+              <div class="card mb-3"><img src="assets/images/medalmynimo.png" class="medals" alt="Medalla Mynimo"></div>
             </div>
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="card mb-3"><img src="assets/images/medalsheen.png" class="medals" alt="Medalla Sheen">
@@ -244,6 +276,7 @@
   </footer>
 
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/weather.js"></script>
   <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
   <script>
     AOS.init(

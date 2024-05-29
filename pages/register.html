@@ -47,44 +47,51 @@
     </header>
 
     <main class="fill-vh bg-bn">
-        <section id="registro ">
+        <section id="registro">
             <div class="container form-container px-4 py-2">
                 <div class="my-4 bg-white p-4 shadow">
                     <h2 class="mb-3 violeta-yokai">Registrarse</h2>
-                    <form action="" method="get">
+                    <form id="formRegistro" action="" method="get">
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="nombre">
+                            <div id="nombreError" class="error-message"></div>
                         </div>
                         <div class="mb-3">
                             <label for="apellido" class="form-label">Apellido</label>
                             <input type="text" class="form-control" id="apellido">
+                            <div id="apellidoError" class="error-message"></div>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" class="form-control" id="email">
+                            <div id="emailError" class="error-message"></div>
                         </div>
                         <div class="mb-3">
                             <label for="password" class="form-label">Password</label>
                             <input type="password" class="form-control" id="password">
+                            <div id="passwordError" class="error-message"></div>
                         </div>
                         <div class="mb-3">
                             <label for="fechaDeNacimiento" class="form-label">Fecha de Nacimiento</label>
                             <input type="date" class="form-control" id="fechaDeNacimiento">
+                            <div id="fechaDeNacimientoError" class="error-message"></div>
                         </div>
                         <div class="mb-3">
                             <label for="pais" class="form-label">País de origen</label>
-                            <select class="form-select form-select-lg mb-3" id="pais">
+                            <select class="form-select form-select-lg" id="pais">
                                 <option selected>País</option>
                                 <option value="1">Argentina</option>
                                 <option value="2">Chile</option>
                                 <option value="3">Uruguay</option>
                             </select>
+                            <div id="paisError" class="error-message"></div>
                         </div>
 
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="terminos">
-                            <label class="form-check-label" for="terminos">Acepto los término y condiciones</label>
+                            <label class="form-check-label" for="terminos">Acepto los términos y condiciones</label>
+                            <div id="terminosError" class="error-message"></div>
                         </div>
                         <button type="submit" class="btn btn-primary">Enviar</button>
                     </form>
@@ -123,6 +130,7 @@
     </footer>
 
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/register.js"></script>
 
 </body>
 
